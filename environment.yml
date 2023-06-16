@@ -1,6 +1,7 @@
 name: onlineretail
 dependencies:
     - python>=3.7
+    - pip
     - matplotlib
     - pandas
     - xlrd
@@ -10,5 +11,8 @@ dependencies:
     - scikit-learn
     - scipy
     - jupyterlab
+    - openpyxl
+    - requests
+    - zipfile
     - pip:
         - lifetimes
